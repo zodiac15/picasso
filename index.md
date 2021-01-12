@@ -15,7 +15,7 @@ Convert any image into a sketch on MS Paint.
     
 ## Examples
 ### Black and White Sketch
-![BW sketch](https://github.com/zodiac15/picasso/blob/main/example_bw.png)
+<img src="https://github.com/zodiac15/picasso/blob/main/example_bw.png">
 
 ### Colour Sketch
-![colour Sketch](https://github.com/zodiac15/picasso/blob/main/example_colour.png)
+<img src="https://github.com/zodiac15/picasso/blob/main/example_colour.png">
