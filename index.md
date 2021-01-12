@@ -13,7 +13,7 @@
     
 ## Examples
 ### Black and White Sketch
-<img src="https://github.com/zodiac15/picasso/blob/main/example_bw.png">
+<img src="https://github.com/zodiac15/picasso/blob/gh-pages/example_bw.png">
 
 ### Colour Sketch
-<img src="https://github.com/zodiac15/picasso/blob/main/example_colour.png">
+<img src="https://github.com/zodiac15/picasso/blob/gh-pages/example_colour.png">
