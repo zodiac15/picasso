@@ -9,7 +9,7 @@ Convert any image into a sketch on MS Paint.
     
 **Step 2**: Open MS Paint in full screen mode.
 
-**Step 3**: run the script and follow the instructions.
+**Step 3**: Run the script and follow the instructions.
 
     python picasso.py   
     
