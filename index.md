@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# Picasso
+Convert any image into a sketch on MS Paint.
 
-You can use the [editor on GitHub](https://github.com/zodiac15/picasso/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Setup
+ 
+**Step 1**: Install requirements
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    pip install -r requirements.txt  
+    
+**Step 2**: Open MS Paint in full screen mode.
 
-### Markdown
+**Step 3**: Run the script and follow the instructions.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    python picasso.py   
+    
+## Examples
+### Black and White Sketch
+![BW sketch](https://github.com/zodiac15/picasso/blob/main/example_bw.png)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zodiac15/picasso/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Colour Sketch
+![colour Sketch](https://github.com/zodiac15/picasso/blob/main/example_colour.png)
