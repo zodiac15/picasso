@@ -1,5 +1,3 @@
-# Picasso
-Convert any image into a sketch on MS Paint.
 
 ## Setup
  
