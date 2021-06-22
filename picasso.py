@@ -21,9 +21,10 @@ def Sort_Tuple(tup):
 def pencil_sketch(img_location):
 
 	img = Image.open(img_location)
+
 	tx,ty = img.size
 	if ty>tx:
-		img = img.resize(((300*ty)//tx,300))
+		img = img.resize(((100*ty)//tx,100))
 	else:
 		img = img.resize((300,(300*ty)//tx))
 		
@@ -99,17 +100,25 @@ def draw_colour(img_array):
 						pyautogui.click()
 
 
+choice = input("Colour(c) or Pencil(p)?")
+if choice=="c":
+	test,img_array = colour_sketch(img_location)
+	test.show()
+	print(test.size)
+	ans = input("Draw?(y/n): ")
+	if ans=='y':
+		sleep(5)
+		draw_colour(img_array)
+elif chice=="p":
+	test,img_array = pencil_sketch(img_location)
+	test.show()
+	print(test.size)
+	ans = input("Draw?(y/n): ")
+	if ans=='y':
+		sleep(5)
+		draw_pencil(img_array)
 
-test,img_array = colour_sketch(img_location)
-test.show()
-print(test.size)
 
-
-ans = input("Draw?(y/n): ")
-if ans=='y':
-	sleep(5)
-	draw_colour(img_array)
 else:
 	pass
-
 
